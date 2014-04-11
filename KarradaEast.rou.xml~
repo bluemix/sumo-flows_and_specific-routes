@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Jan 28 12:01:51 2014 by SUMO duarouter Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="KarradaEast.net.xml"/>
+        <trip-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="KarradaEast.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/routes_file.xsd">
+    
+    <route id="route0" edges="4258368 -4258368 4074592#6 4074592#7 4074592#8 4074592#9 4074592#10 49192811#3 49192811#4 4074591#11 4074591#12 				4074591#0 4255888#0 -4255862#1 4255862#1"/>
+
+    <route id ="route1" edges="4240001#0 4240001#1 4240046#9 4214036#1 4214036#2 4214036#3 4214036#4 4214041 4214037#5 4214037#6 4214037#7 				4258391#0"/>
+    <route id ="route2" edges="4240038#7 4239994 4240046#2 4240046#3 4240046#4 4240046#5 4240046#6 4240046#7 4240046#8 4240046#9 4214036#1 				4214036#2 4214036#3 4214036#4 4214041 4214037#5 4214037#6 4214037#7 4214037#8 4214037#9 4214039#0 4214039#1 4214039#2 				4214039#3 4214039#4 4258294#0 4258294#1 4258294#2"/>
+    <route id="route3" edges="4240060 4240044#3 4240044#4 -4240062#2 -4240062#1 4240066#0 4240066#1 -4240064#0 4214036#7 4214036#0 49192811#0 				-4240002#2 -4240002#1 4240002#1"/>
+	
+    <route id="route4" edges="4258376 -4258376 4258386#1 4258386#2 4258386#3 4258386#4 4258386#5 4258386#6 4258386#7 4258386#8 4258386#9 				4214036#4 4214041 4214037#5 4214037#6 4214037#7 4258391#0 4258391#1 4258391#2 -4258396 4258396"/>
+
+    <route id="route5" edges="4214036#5 4214036#6 4214036#7 4214036#0 49192811#0 49192811#1 49192811#2 49192811#3 49192811#4 49192811#5 			49192811#6 49192811#7 -4241780#1 -4241780#0 -4241778#0 4241783#3 4241777 4074593#1"/>
+
+    <route id="route6" edges="4258407#1 -4258404#1 -4258405#2 -4258405#1 -4258405#0 4258390#4 4258390#5 4258390#6 4258390#7 4258390#8 				4214037#7 4214037#8 4214037#9 4214037#10 4214037#11 4214037#0 4214037#1 4240045#0 4240045#1 -4240086 4240044#7 -4240064#2 				-4240064#1 -4240066#1 -4240066#0 4240066#0"/>
+    <route id="route7" edges="4240084#1 4240081 4240175#6 4240175#7 4214038#3 4214037#11 4214037#0 4214037#1 4214037#2 4214037#3 				4214040#0 4214040#1 4214036#6 4214036#7 4214036#0 49192811#0 49192811#1 49192811#2 49192811#3 49192811#4 4074591#11 				4074591#12 4074591#0 4255888#0 4255888#1 4255888#2 -4255864#1 4255864#1"/>
+
+    <route id="route8" edges="4240110#1 -4240110#1 4240105#0 4240105#1 4240106 -4240107#0 4214038#1 4214038#2 4214038#3 4214037#11 4214037#0 			4214037#1 4214037#2 4214037#3 4214037#4 4214037#5 4214037#6 4214037#7 4214037#8 4214037#9 4214039#0 4214039#1 4214039#2 4214039#3 			4214039#4 4258294#0 4258294#1 -4258296"/>
+	
+    <route id="route9" edges="4214032#0 4214032#1 4214032#2 4214032#3 4214032#4 4214032#5 4214032#6 4214032#7 4214032#8 4214032#9 4214036#2 			4258385#0 4258385#1 4258385#2 4258385#3 4258385#4 -4258370"/>
+
+
+    <route id="route10" edges="-4258402#0 4258390#4 4258390#5 4258390#6 4258390#7 4258390#8 4214037#7 4214037#8 4214037#9 4214037#10 4214037#11 		4214037#0 4214037#1 4214037#2 4214037#3 4214040#0 4214040#1 4214036#6 4214036#7 4214036#0 49192811#0 49192811#1 4074591#6 			4240038#0 4240038#1 4240038#2 4240038#3 4240038#4 4239997"/>
+
+    <route id="route11" edges="-4240062#0 4240047#1 4240047#2 4240047#3 4240047#4 4240047#5 4240047#6 4240047#7 4240044#0"/>
+
+    <route id="route12" edges="4074592#0 4074592#1 4074592#2 4074592#3 4074592#4 4074592#5 4074592#6 4074592#7 4074592#8 4074591#4 			4214032#9 4214036#2 4214036#3 4214036#4 4214041"/>
+
+    <route id="route13" edges="4214041 4214037#5 4214037#6 4214037#7 4214037#8 4214037#9 4214039#0 4214039#1 4258362#0 4258362#1 4258362#2 			-4258359#1 -4258360 4258360"/>
+
+    <route id="route14" edges="4255863#1 -4255863#1 -4255871#1 -4255871#0 4214032#5 4214032#6 4214032#7 4214032#8 4074591#5 4074591#6 4240038#0 		4240001#0 4240001#1 -4240001#1"/>
+
+    <route id="route15" edges="-4255863#1 -4255871#1 -4255871#0 4214032#5 4214032#6 4214032#7 4214032#8 4214032#9 4214036#2 4258385#0 4258385#1 		-4258367 4258367"/>
+    
+    <route id="route16" edges="4074592#14 -4240030#7 4240005#1 4240037#7 4240037#8 4240037#9 4074591#8 4074591#9 4074591#10 4074591#11 4074591#12 			4074591#0 4255888#0 4255888#1 4255888#2 4255888#3 -4255865"/>
+	
+    <route id="route17" edges="4258362#1 -4258361 4258392#6 4214037#9 4214037#10 4214037#11 4214037#0 4214037#1 4214037#2 4214037#3 4214037#4 			4214037#5 4214037#6 4214037#7 4258391#0 -4258394 4258390#8"/>
+	
+	<vType id="pedestrian" guiShape="pedestrian" accel="2.6" decel="3.0" sigma="0.5" length="2" minGap="2" maxSpeed="50" 				color="1,0,0.75"/>
+	<vType id="trolley" guiShape="bus/trolley" accel="3.0" decel="4.5" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="25" color="0,1,1"/>
+	<vType id="passenger/sedan" guiShape="passenger/sedan" accel="2.0" decel="4.0" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="60" 			color="0,0,1"/>
+	<vType id="transport/semitraile" guiShape="transport/semitrailer" accel="1.0" decel="2.0" sigma="0.5" length="2.5" minGap="2.5" 			maxSpeed="30" color="1,0,1"/>
+	<vType id="passenger" length="5.0" minGap="7" guiShape="passenger" osgFile="vw_golf.3ds" probability="20" color=".25,.5,1" /> 
+	<vType id="passenger/hatchback" length="12.5" minGap="2.5" guiShape="passenger/hatchback" osgFile="tour_bus.3ds" width="2.4" 			probability="2"/> 
+	<vType id="transport/trailer" length="16.25" minGap="2.5" guiShape="transport/trailer" osgFile="lorry.3ds" width="2.6" probability="1"/> 
+	<vType id="idm" length="5" minGap="2" color="1,1,1">
+       		<carFollowing-IDM/>
+   	</vType>
+
+	
+	
+	<flow id="flow0" type="pedestrian" vClass="pedestrian" route="route0" begin="0.00" period="3" number="4"/>
+	<!--
+	<flow id="flow1" type="passenger" vClass="passenger" route="route1" begin="19.00" period="3" number="15"/>
+	<flow id="flow2" type="transport/trailer" vClass="public_transport" route="route2" begin="20.00" period="3" number="4"/>
+	<flow id="flow3" type="pedestrian" vClass="pedestrian" route="route3"  begin="20.01" period="3" number="20"/>
+	<flow id="flow4" type="passenger" vClass="passenger" route="route4"  begin="20.10" period="3" number="100"/>
+
+	
+	<flow id="flow5" type="passenger" vClass="passenger" route="route5"  begin="20.12" period="3" number="100"/>
+	<flow id="flow6" type="passenger" vClass="passenger" route="route6"  begin="20.13" period="3" number="100"/>
+	<flow id="flow7" type="passenger" vClass="passenger" route="route7"  begin="20.14" period="3" number="100"/>
+
+	<flow id="flow8" type="passenger" vClass="passenger" route="route8"  begin="20.15" period="3" number="100"/>
+	<flow id="flow9" type="passenger" vClass="passenger" route="route9"  begin="20.16" period="3" number="100"/>
+	<flow id="flow10" type="passenger" vClass="passenger" route="route10"  begin="20.17" period="3" number="100"/>
+	-->
+	<flow id="flow11" type="passenger" vClass="passenger" route="route11"  begin="0.01" period="3" number="5"/>
+	<flow id="flow12" type="passenger" vClass="passenger" route="route11"  begin="0.02" period="3" number="5"/>
+	<flow id="flow13" type="passenger" vClass="passenger" route="route11"  begin="0.03" period="3" number="5"/>
+	
+
+
+</routes>

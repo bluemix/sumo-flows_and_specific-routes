@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Jan 28 12:01:51 2014 by SUMO duarouter Version 0.19.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="KarradaEast.net.xml"/>
+        <trip-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="KarradaEast.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/routes_file.xsd">
+    
+    <!-- Routes -->
+    <route id="route0" edges="4214032#0 4214032#1 4214032#2 4214032#3 4214032#4 4214032#5 4074591#12 4074591#0 4255888#0 4255888#1
+								4255888#2"/>
+	<route id="route1" edges="-4240109#1 -4240109#0 -4240110#0"/>
+	
+	<!-- Types of vehicles -->
+	<vType id="pedestrian" guiShape="pedestrian" accel="2.6" decel="3.0" sigma="0.5" length="2" minGap="2" maxSpeed="50" color="1,0,0.75"/>
+	<vType id="trolley" guiShape="bus/trolley" accel="3.0" decel="4.5" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="25" color="0,1,1"/>
+	<vType id="passenger/sedan" guiShape="passenger/sedan" accel="2.0" decel="4.0" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="60" color="0,0,1"/>
+	<vType id="transport/semitraile" guiShape="transport/semitrailer" accel="1.0" decel="2.0" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="30" color="1,0,1"/>
+	<vType id="passenger" length="5.0" minGap="7" guiShape="passenger" osgFile="vw_golf.3ds" probability="20" color=".25,.5,1" /> 
+	<vType id="passenger/hatchback" length="12.5" minGap="2.5" guiShape="passenger/hatchback" osgFile="tour_bus.3ds" width="2.4" probability="2"/> 
+	<vType id="transport/trailer" length="16.25" minGap="2.5" guiShape="transport/trailer" osgFile="lorry.3ds" width="2.6" probability="1"/> 
+	<vType id="idm" length="5" minGap="2" color="1,1,1">
+       		<carFollowing-IDM/>
+   	</vType>
+
+	<!-- Flows -->
+	<flow id="flow0" type="pedestrian" vClass="pedestrian" route="route0" begin="0.00" period="3" number="400"/>
+	<flow id="flow1" type="transport/trailer" vClass="transport/trailer" route="route1" begin="0.00" period="3" number="100"/>
+
+
+
+</routes>
